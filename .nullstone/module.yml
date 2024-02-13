@@ -1,0 +1,14 @@
+org_name: nullstone
+name: aws-ecs-gpu-cores
+friendly_name: ECS GPU Cores
+description: Enables ECS EC2 container to use GPU cores
+category: capability
+subcategory: sidecars
+provider_types:
+    - aws
+platform: ecs
+subplatform: ec2
+type: ""
+appCategories:
+    - container
+is_public: true
