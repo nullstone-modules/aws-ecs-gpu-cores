@@ -1,7 +1,7 @@
 locals {
   gpu_req = {
     type  = "GPU"
-    value = var.num_cores
+    value = tostring(var.num_cores)
   }
 }
 
